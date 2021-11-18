@@ -1,0 +1,344 @@
+@charset "UTF-8";
+
+/*공통*/
+.a_iframe {
+	border-style: none;
+	background-color: white;
+	margin: 0;
+}
+
+.right {
+	margin-top: 10px;
+	float: right;
+}
+
+h2 {
+	text-align: center;
+}
+
+
+
+
+/*main*/
+/*main의 header*/
+marquee {
+	margin-top: 10px;
+	width: 810px;
+	color: white;
+	font-family: "나눔고딕", "돋움", sans-serif;
+	font-size: 13pt;
+	color: red;
+}
+
+.login_join {
+	margin-right: 10px;
+	margin-top: -30px;
+	color: #363636;
+}
+
+.login_join li {
+	display: inline;
+	font-size: 16px;
+	font-wieght: bold;
+	font-family: "나눔고딕", "돋움", sans-serif;
+	color: #363636;
+}
+
+.login_join a { 
+	display: inline-block; 
+	padding: 5px; 
+	margin: 0 5px;
+	text-decoration: none;
+	color: #363636;
+}
+.login_join a:hover {
+	color: red;
+	font-weight: bolder;
+}
+
+.header_logo {
+	text-align: center;
+	clear: both;
+}
+.deliveryWatta_logo {
+	margin-left: auto;
+	margin-right: auto;
+	margin: 15px 0 20px 0;
+	width: 440px;
+	height: 147px;
+}
+
+
+
+/*main의 navigation*/
+.nav { 
+	width: 1000px;
+	height: 55px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	border-top: 2px solid #363636;
+	border-bottom: 2px solid #363636;
+}
+
+.nav li { 
+	display: inline; 
+	position: relative; 
+	top: -8px;
+	font-size: 14px; 
+	font-weight: bold; 
+	font-family: "나눔고딕", sans-serif;
+}
+
+.nav a { 
+	display: inline-block; 
+	padding: 10px; 
+	margin: 0 10px;
+	text-decoration: none; 
+	color: #363636; 
+}
+		
+#nav2:hover { 
+	color: red; 
+	font-weight: bolder; 
+}
+
+
+
+/*main의 article*/
+.a_iframe {
+	border-style: none;
+	background-color: white;
+	margin: 0;
+}
+
+
+
+/*main의 footer*/
+.copyright {
+	font-family: "나눔고딕";
+	font-size: 10pt;
+	color: red;
+}
+
+
+
+
+/*main_list*/
+.main_list {
+	margin-top: 20px;
+	background-color: white; 
+	vertical-align: middle; 
+	color: white; 
+}
+
+.main_list_table { 
+	table-layout: fixed; 
+	margin: 10px; 
+	padding: 10px;
+}
+
+.category_image { 
+	box-shadow: 0px 0px 0px black; 
+	border: 1px solid #363636;
+}
+
+.category_image:hover { 
+	transform: scale(1.03, 1.03);
+	box-shadow: 2px 2px 2px #363636;
+	transition: transform 1s, box-shadow 1s;
+}
+
+
+
+
+/*join*/
+.join { 
+	margin-top: 20px auto auto auto; 
+	background-color: white;
+	color: #363636;
+}
+
+.join fieldset { 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 500px;
+}
+
+.join_info { 
+	display: inline-block; 
+	margin: 10px 5px 5px 15px; 
+	width: 200px;
+}
+
+
+
+
+/*cus_page, res_page*/
+.mypage_nav { 
+	width: 1000px;
+	height: 40px;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0 auto;
+	text-align: center;
+	border-top: 2px solid #FFA7A7;
+	border-bottom: 2px solid #FFA7A7;
+}
+
+.mypage_nav li { 
+	display: inline; 
+	position: relative;
+	font-size: 14px; 
+	font-weight: bold; 
+	font-family: "나눔고딕", "돋움", sans-serif;
+}
+			
+.mypage_nav a { 
+	display: inline-block; 
+	padding: 10px; 
+	margin: 0 10px;
+	text-decoration: none; 
+	color: #363636;
+}
+
+.mypage_nav a:hover {
+	color: red; 
+	font-weight: bolder;
+}
+
+
+.mypage_nav_first {
+	margin-left: -40px;
+}
+
+.mypage_main {
+	margin: 0 auto;
+	width: 900px;
+	padding: 20px;
+	background: #ffffff;
+}
+
+
+
+
+/* coupon_page, payment, res_manage */
+.page_manage { 
+	margin-top: 20px; 
+	background-color: white; 
+	vertical-align: middle; 
+	color: #363636;
+}
+
+.page_manage fieldset { 
+	display: block; 
+	margin: 0 auto; 
+	width: 500px;
+}
+
+.page_manage fieldset div { 
+	margin: 10px 20px 10px 0;
+}
+
+.page_manage table {
+	width: 500px;
+}
+
+.page_manage td {
+	text-align: center;  
+	margin: 20px; 
+	padding: 10px;
+}
+
+.coupon_td { 
+	text-align: center;  
+	font-weight:bold;
+	margin: 20px; 
+	padding: 30px;
+}
+
+
+
+
+/* res_list, res_detail */
+.res_detail {
+	width: 950px;
+    padding: 20px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.res_detail_main {
+	margin: 0 auto;
+	width: 900px;
+	padding: 20px;
+	background: #ffffff;
+}
+
+.res_detail_main section {
+	display: none;
+    padding: 20px 0 0;
+    border-top: 1px solid #ddd;
+}
+
+
+/*라디오버튼 숨김*/
+.res_detail_main #tab1,#tab2,#tab3 {
+	display:none;
+	text-align:center;
+}
+
+.res_detail_main label {
+	display: inline-block;
+	margin: 0 0 -1px;
+    padding: 15px 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #bbb;
+    border: 1px solid transparent;
+}
+
+.res_detail_main label:hover {
+	color: #2e9cdf;
+	cursor: pointer;
+}
+
+
+/*input 클릭시, label 스타일*/
+.res_detail_main input:checked + label {
+	color: #555;
+	border: 1px solid #ddd;
+	border-top: 2px solid red;
+	border-bottom: 1px solid #ffffff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+	display: block;
+	text-align: center;
+}
+
+.tbl {
+	border: 1px solid #ddd;
+	display: block;
+	margin: 10px auto;
+}
+
+.res_list_td {
+	width:700px;
+	text-align: left;
+	margin: 50px auto;
+	padding: 20px 50px;
+}
+
+.res_detail_td {
+	width: 150px;
+	text-align: center;
+	font-weight: bold;
+	margin: 10px;
+	padding: 20px;
+}

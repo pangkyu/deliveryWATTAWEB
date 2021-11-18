@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- 반응형 웹에 사용되는 메타태그 넣음 -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/deliveryWatta.css">
+    <title>배달와따 음식관리</title>
+</head>
+<body class="page_manage">
+	<h2 style="text-align:center;">음식관리</h2>
+
+	<form method="post" action="foodAction.jsp">
+		<fieldset>
+		<legend>&nbsp;&nbsp;음식 추가/수정&nbsp;&nbsp;</legend>
+			<div>
+				<table border="0">
+					<tr>
+						<td style="font-weight:bold;">음식ID</td>
+						<td><input type="text" name="foodID" maxlength="20"></td>
+					</tr>
+					<tr>
+						<td style="font-weight:bold;">음식 이름</td>
+						<td><input type="text" name="foodName" maxlength="20"></td>
+					</tr>
+					<tr>
+						<td style="font-weight:bold;">가격</td>
+						<td><input type="text" name="foodPrice" placeholder="숫자만 입력" maxlength="10"></td>
+					</tr>
+					<tr>
+						<td style="font-weight:bold;">조리시간(분)</td>
+						<td><input type="text" name="cookMinute" placeholder="숫자만 입력" maxlength="10"></td>
+					</tr>
+				</table>
+			</div>
+		</fieldset>
+		
+		<br/>
+		
+		<div style="text-align: center;">
+			<input type="submit" value="제출"/>
+			<input type="reset" value="취소"/>
+		</div>
+	</form>
+</body>
+</html>
